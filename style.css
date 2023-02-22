@@ -1,0 +1,8 @@
+.container{
+    display: grid;
+}
+
+.grid-item{
+    background: rgb(165, 155, 155);
+    border: 5px solid rgb(95,153, 28 );
+}
