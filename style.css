@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    grid-template-rows: repeat(3, 250px);
+    grid-template-rows: 200px 800px 200px;
 }
 
 .container{
@@ -8,22 +8,22 @@
 }
 
 .grid-item{
-    border: 2px solid red;
+    border: 2px dashed red;
 }
 
 .item-1{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 100px 300px;
 }
 
 .item-2{
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
 
 .inner-item-2{
     border: solid black;
-    border-radius: 10%;
+    border-radius: 5px;
     margin: 5px;
 }
 
