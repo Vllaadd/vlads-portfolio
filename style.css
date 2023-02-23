@@ -1,19 +1,21 @@
 .container{
     display: grid;
-    grid-template-rows: 200px auto 700px 200px;
-}
-
-.container{
-    border: 5px solid rgb(95,153, 28);
+    grid-template-rows: 100px auto 700px 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .grid-item{
     border: 2px dashed red;
 }
 
+.item-12{
+    text-align: left;
+}
+
 .item-1{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: minmax(0, 1fr) 3fr;
 }
 
 .item-2{
@@ -29,7 +31,7 @@
 
 
 #profil-pic{
-    border-radius: 50%;
-    padding: 20px;
-    width: 150px;
+    max-width: 100%;
+    padding: 30px;
+    min-width: 0;
 }
