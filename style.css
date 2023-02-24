@@ -13,7 +13,6 @@
 img{
     border-radius: 4px;
     float: left;
-    padding: 5px;
     width: 100px;
 }
 
@@ -21,9 +20,10 @@ img{
     margin-top: 30px;
 }
 
-/* .title{
-    float: left;
-} */
+.title{
+    text-align: center
+}
+
 .stack{
     display: inline;
     border: solid grey;
