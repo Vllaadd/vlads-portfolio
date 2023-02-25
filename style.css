@@ -1,5 +1,5 @@
 body{
-    background-color: lightgray;
+    background-color: #E5EAF5;
 }
 
 .project,
@@ -55,4 +55,10 @@ hr{
 
 .contact-inline{
     display: inline;
+    display: inline;
+    border: solid grey;
+    position: relative;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 3px;
 }
