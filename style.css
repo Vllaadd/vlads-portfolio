@@ -58,6 +58,11 @@ hr{
     border: 2px solid gray;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px #888888;
+    transition: 0.8s;
+}
+
+.project:hover{
+    background-color: #A9A9A9;
 }
 
 .contact-inline{
