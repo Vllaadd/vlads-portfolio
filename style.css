@@ -1,3 +1,14 @@
+body{
+    background-color: lightgray;
+}
+
+.project,
+.stack,
+svg,
+.contact-inline{
+    background-color: white;
+}
+
 .container{
     display: grid;
     grid-template-rows: repeat(9, auto);
