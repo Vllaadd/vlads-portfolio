@@ -13,7 +13,7 @@ A simple webpage that showcases my work, projects, and contact information .
 1. Close this repository to your local machine. 
 2. Open the 'index.html' file in your web browser  
 
-# Usage 
+## Usage 
 
 Once you have the project running in your web browser, you can use it to:
 - Learn more about me and my work 
