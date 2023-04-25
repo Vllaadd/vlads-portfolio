@@ -1,5 +1,5 @@
 body{
-    background-color: #E5EAF5;
+    background-color: #FFE5B4;
     color: #736F6E;
 }
 
@@ -7,7 +7,7 @@ body{
 .stack,
 svg,
 .contact-inline{
-    background-color: white ;
+    background-color: #FFFCF2 ;
 }
 
 .container{
@@ -57,12 +57,12 @@ hr{
 .project{
     border: 2px solid gray;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px #888888;
+    box-shadow: 2px 2px 2px 2px #FFB97C;
     transition: 0.8s;
 }
 
 .project:hover{
-    background-color: #A9A9A9;
+    background-color: #FFAE7E;
 }
 
 .contact-inline{
