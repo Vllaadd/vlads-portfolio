@@ -1,4 +1,4 @@
-# My Portfolio 
+# Vlad's Portfolio Page
 
 A simple webpage that showcases my work, projects, and contact information . 
 
@@ -18,7 +18,7 @@ Once you have the project running in your web browser, you can use it to:
 This project includes: 
 
 - My brief introduction 
-- MMy past projects and their descriptions
+- My past projects and their descriptions
 - A contact information and links to my social media 
 
 
