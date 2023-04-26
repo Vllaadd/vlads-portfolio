@@ -21,13 +21,21 @@ svg,
     padding: 5px;
 }
 
+.item-1{
+    display: flex;
+
+}
+
 img{
+    grid-column: 1/2;
     border-radius: 4px;
-    float: left;
+    /* float: left; */
     width: 100px;
 }
 
 .introduction{
+    grid-column: 2/3;
+    margin-left: 10px;
     margin-top: 30px;
 }
 
