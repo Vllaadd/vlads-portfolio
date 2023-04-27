@@ -1,6 +1,6 @@
 body{
     /* background-color: white; */
-    background-image: url('./files/leaves.webp');
+    background-image: url('./files/WhatsApp.jpeg');
     color: #f5f5f5;
     font-family: Courier, monospace;
     font-size: 14px;
@@ -94,7 +94,7 @@ hr{
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px #f5f5f5;
     transition: 0.8s;
-    transition: transform 0.2s ease;
+    transition: transform 0.7s ease;
 }
 
 a {
@@ -107,7 +107,7 @@ a {
 
 .project:hover{
     /* box-shadow: 10px 10px 10px 10px #e5e5e5; */
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 
 .contact-inline{
