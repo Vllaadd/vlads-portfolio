@@ -55,8 +55,8 @@ img{
     grid-column: 1/2;
     border-radius: 4px;
     float: left;
-    width: 100px;
-    height: 100px;
+    max-width: 170px;
+    max-height: 170px;
     margin-left: 10px ;
 }
 
