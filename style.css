@@ -47,7 +47,7 @@ img{
 
 .stack{
     display: inline;
-    border: solid grey;
+    border: solid black;
     position: relative;
     border-radius: 10px;
     padding: 3px;
@@ -61,13 +61,13 @@ img{
 }
 
 hr{
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .project{
-    border: 2px solid gray;
+    border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px #FFB97C;
+    box-shadow: 2px 2px 2px 2px #f5f5f5;
     transition: 0.8s;
 }
 
@@ -80,7 +80,7 @@ a {
   }
 
 .project:hover{
-    box-shadow: 10px 10px 10px 10px #FFB97C;
+    box-shadow: 10px 10px 10px 10px #e5e5e5;
 }
 
 .contact-inline{
