@@ -1,13 +1,17 @@
 body{
-    background-color: white;
-    color: #736F6E;
+    background-color: #0A0D33;
+    color: #f5f5f5;
+    font-family: Courier, monospace;
+    font-size: 14px;
 }
+
 
 .project,
 .stack,
 svg,
 .contact-inline{
-    background-color: #FFFCF2 ;
+    background-color: #000000;
+
 }
 
 .container{
@@ -95,4 +99,5 @@ a {
 .contactdiv{
     text-align: center;
 }
+
 
