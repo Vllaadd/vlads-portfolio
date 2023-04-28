@@ -9,27 +9,27 @@ body{
     display: grid;
     grid-template-rows: repeat(9, 1fr);
     grid-template-columns: 3fr 1fr;
-    /* margin: 40px 40px 40px 40px; */
     gap: 10px;
 }
 
 .introduction{
     grid-row: 1;
-    grid-column: 1 / spand 1;
-    display: inline-block;
+    grid-column: 1 / span 1;
+    border: 1px solid black;
 }
 
 .my-stack{
     grid-row: 1;
     grid-column: 2 / span 1;
+    border: 1px solid black;
 }
 
 .item-3{
     grid-row: 2;
     grid-column: 1 / span 2;
     height: fit-content;
+    border: 1px solid black;
 }
-
 .project-1{
     grid-row: 3; 
     grid-column: 1 / span 2;
@@ -95,8 +95,6 @@ h4 {
 
 h5 {
     color: #00FF00;
-
-
 }
 
 p {
