@@ -8,9 +8,45 @@ body{
 
 .container{
     display: grid;
-    grid-template-rows: repeat(10, auto);
-    margin: 40px 40px 40px 40px;
+    grid-template-rows: repeat(9, 1fr);
+    /* margin: 40px 40px 40px 40px; */
     gap: 10px;
+}
+
+.item-1{
+    grid-row: 1;
+    grid-column: 1 / spand 1;
+    display: inline-block;
+}
+
+img{
+    float: left;
+    max-width: 170px;
+    max-height: 170px;
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+
+.item-2{
+    grid-row: 1;
+    grid-column: 2 / span 1;
+}
+
+.title{
+    text-align: center
+}
+
+.stack{
+    border: solid black;
+    position: relative;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.stackdiv{
+    text-align: center;
+    margin-top: 20px;
 }
 
 h3{
@@ -34,48 +70,12 @@ p{
 
 
 .project,
-.stack,
-svg{
+.stack{
     background-color: rgba(0, 0, 0, 0.5);
-
-
-
 }
 
 .grid-item{
     padding: 5px;
-}
-
-.item-1{
-    display: inline-block;
-
-}
-
-img{
-    float: left;
-    max-width: 170px;
-    max-height: 170px;
-    margin-left: 10px ;
-    margin-right: 10px;
-}
-
-.title{
-    text-align: center
-}
-
-.stack{
-    display: inline;
-    border: solid black;
-    position: relative;
-    border-radius: 10px;
-    padding: 3px;
-    margin: 3px;
-    text-align: center;
-}
-
-.stackdiv{
-    text-align: center;
-    margin-top: 20px;
 }
 
 hr{
