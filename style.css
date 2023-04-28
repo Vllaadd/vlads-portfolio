@@ -7,7 +7,7 @@ body{
 
 .container{
     display: grid;
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-rows: 1fr auto repeat(7, 1fr);
     grid-template-columns: 3fr 1fr;
     gap: 10px;
 }
@@ -27,7 +27,6 @@ body{
 .item-3{
     grid-row: 2;
     grid-column: 1 / span 2;
-    height: fit-content;
     border: 1px solid black;
 }
 .project-1{
@@ -108,10 +107,6 @@ p {
 
 .grid-item{
     padding: 5px;
-}
-
-hr{
-    border: 1px solid black;
 }
 
 .project{
