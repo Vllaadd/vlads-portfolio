@@ -6,6 +6,13 @@ body{
     font-size: 14px;
 }
 
+.container{
+    display: grid;
+    grid-template-rows: repeat(10, auto);
+    margin: 40px 40px 40px 40px;
+    gap: 10px;
+}
+
 h3{
     color: yellow;
 }
@@ -35,36 +42,21 @@ svg{
 
 }
 
-.container{
-    display: grid;
-    grid-template-rows: repeat(10, auto);
-    margin: 40px 100px 40px;
-    gap: 10px;
-}
-
 .grid-item{
     padding: 5px;
 }
 
 .item-1{
-    display: flex;
+    display: inline-block;
 
 }
 
 img{
-    grid-column: 1/2;
-    border-radius: 4px;
     float: left;
     max-width: 170px;
     max-height: 170px;
     margin-left: 10px ;
-}
-
-.introduction{
-    grid-column: 2/3;
-    margin-left: 10px;
-    margin-top: 30px;
-    clear: both;
+    margin-right: 10px;
 }
 
 .title{
