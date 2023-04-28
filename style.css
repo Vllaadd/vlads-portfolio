@@ -9,11 +9,12 @@ body{
 .container{
     display: grid;
     grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: 3fr 1fr;
     /* margin: 40px 40px 40px 40px; */
     gap: 10px;
 }
 
-.item-1{
+.introduction{
     grid-row: 1;
     grid-column: 1 / spand 1;
     display: inline-block;
@@ -27,9 +28,44 @@ img{
     margin-right: 10px;
 }
 
-.item-2{
+.my-stack{
     grid-row: 1;
     grid-column: 2 / span 1;
+}
+
+.item-3{
+    grid-row: 2;
+    grid-column: 1 / span 2;
+}
+
+.project-1{
+    grid-row: 3; 
+    grid-column: 1 / span 2;
+}
+.project-2{
+    grid-row: 4; 
+    grid-column: 1 / span 2;
+}
+.project-3{
+    grid-row: 5; 
+    grid-column: 1 / span 2;
+}
+.project-4{
+    grid-row: 6;
+    grid-column: 1 / span 2; 
+}
+.project-5{
+    grid-row: 7;
+    grid-column: 1 / span 2; 
+}
+.project-6{
+    grid-row: 8
+    grid-column: 1 / span 2;
+}
+
+.contact{
+    grid-row: 9;
+    grid-column: 1 / span 2;
 }
 
 .title{
@@ -49,25 +85,23 @@ img{
     margin-top: 20px;
 }
 
-h3{
+h3 {
     color: yellow;
 }
 
-h4{
+h4 {
     color: black;
 }
 
-h5{
+h5 {
     color: #00FF00;
 
 
 }
 
-p{
+p {
     color: white;
 }
-
-
 
 .project,
 .stack{
