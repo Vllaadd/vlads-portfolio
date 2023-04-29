@@ -61,12 +61,24 @@ body{
     grid-column: 1 / span 2;
 }
 
+.introduction h5{
+    transition: all 0.5s ease;
+}
+
 img{
     float: left;
     max-width: 170px;
     max-height: 170px;
     margin-left: 10px ;
     margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+    .introduction img {
+        float: none;
+        margin: 0 auto 20px;
+        display: block;
+    }
 }
 
 .title{
