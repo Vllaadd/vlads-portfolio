@@ -138,9 +138,12 @@ a {
     padding: 2px;
   }
 
-.project:hover,
-.stack:hover{
+.project:hover{
     transform: scale(1.04);
+}
+
+.stack:hover{
+    transform: scale(1.15);
 }
 
 .contact-inline{
