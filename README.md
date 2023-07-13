@@ -1,6 +1,6 @@
 # Vlad's Portfolio Page
 
-A simple webpage that showcases my work, projects, and contact information . 
+A webpage that showcases my work, projects, and contact information . 
 
 ## Tech Stack 
 
