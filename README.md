@@ -10,7 +10,7 @@ A webpage that showcases my work, projects, and contact information .
 4. JavaScript 
 
 ## Installation 
-1. Close this repository to your local machine. 
+1. Clone this repository to your local machine. 
 2. Open the 'index.html' file in your web browser  
 
 ## Usage 
@@ -27,6 +27,4 @@ This project includes:
 - My brief introduction 
 - My past projects and their descriptions
 - A contact information and links to my social media 
-
-
 
