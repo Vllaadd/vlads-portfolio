@@ -1,11 +1,14 @@
-body{
+body {
+    background-image: url("./files/05-white-brick.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #f5f5f5;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 1;
 }
 
-.container{
+.container {
     display: grid;
     grid-template-rows: repeat(9, auto);
     grid-template-columns: 3fr 1fr;
@@ -13,7 +16,7 @@ body{
     gap: 5px;
 }
 
-.introduction{
+.introduction {
     grid-row: 1;
     grid-column: 1 / span 1;
     width: 100%;
@@ -21,56 +24,62 @@ body{
     /* border-radius: 10px; */
 }
 
-.my-stack{
+.my-stack {
     grid-row: 1;
     grid-column: 2 / span 1;
     /* border: 1px solid black; */
     /* border-radius: 10px; */
 }
 
-.item-3{
+.item-3 {
     grid-row: 2;
     grid-column: 1 / span 2;
 }
-.project-1{
-    grid-row: 3; 
+
+.project-1 {
+    grid-row: 3;
     grid-column: 1 / span 2;
 }
-.project-2{
-    grid-row: 4; 
+
+.project-2 {
+    grid-row: 4;
     grid-column: 1 / span 2;
 }
-.project-3{
-    grid-row: 5; 
+
+.project-3 {
+    grid-row: 5;
     grid-column: 1 / span 2;
 }
-.project-4{
+
+.project-4 {
     grid-row: 6;
-    grid-column: 1 / span 2; 
+    grid-column: 1 / span 2;
 }
-.project-5{
+
+.project-5 {
     grid-row: 7;
-    grid-column: 1 / span 2; 
+    grid-column: 1 / span 2;
 }
-.project-6{
+
+.project-6 {
     grid-row: 8;
     grid-column: 1 / span 2;
 }
 
-.contact{
+.contact {
     grid-row: 9;
     grid-column: 1 / span 2;
 }
 
-.introduction h5{
+.introduction h5 {
     transition: all 0.1s ease;
 }
 
-img{
+img {
     float: left;
     max-width: 170px;
     max-height: 170px;
-    margin-left: 10px ;
+    margin-left: 10px;
     margin-right: 10px;
 }
 
@@ -83,7 +92,7 @@ img{
 }
 
 .intro-title,
-.contact-title{
+.contact-title {
     text-align: center;
     background-color: #f2f2f2;
     font-weight: bold;
@@ -91,7 +100,7 @@ img{
     padding-top: 5px;
 }
 
-.title{
+.title {
     text-align: center;
     background-color: #f2f2f2;
     font-weight: bold;
@@ -99,7 +108,7 @@ img{
     padding-top: 15px;
 }
 
-.stack{
+.stack {
     /* border: solid black; */
     position: relative;
     /* border-radius: 10px; */
@@ -107,7 +116,7 @@ img{
     margin: 3px;
 }
 
-.stackdiv{
+.stackdiv {
     text-align: center;
     margin-top: 20px;
 }
@@ -130,12 +139,12 @@ p {
 }
 
 
-.grid-item{
+.grid-item {
     padding: 5px;
 }
 
 .project,
-.stack{
+.stack {
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
@@ -149,17 +158,17 @@ a {
     border: solid grey;
     border-radius: 6px;
     padding: 2px;
-  }
+}
 
-.project:hover{
+.project:hover {
     transform: scale(1.04);
 }
 
-.stack:hover{
+.stack:hover {
     transform: scale(1.15);
 }
 
-.contact-inline{
+.contact-inline {
     display: inline;
     /* border: solid grey; */
     /* position: relative;  */
@@ -168,9 +177,7 @@ a {
     /* margin: 3px;  */
 }
 
-.contactdiv{
+.contactdiv {
     text-align: center;
     padding-top: 20px;
 }
-
-
