@@ -17,18 +17,18 @@ body {
 }
 
 .introduction,
-.my-stack{
+.my-stack {
     background-color: transparent;
-      backdrop-filter: blur(10px); 
-      z-index: 999; 
-      grid-row: 1;
-      border: 1px solid gray;
-      border-radius: 10px;
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    grid-row: 1;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 
 .introduction {
-   width: 100%;
-   grid-column: 1 / span 1;
+    width: 100%;
+    grid-column: 1 / span 1;
 }
 
 .my-stack {
@@ -128,15 +128,6 @@ img {
     margin-top: 20px;
 }
 
-h5 {
-    color: black;
-    font-size: medium;
-}
-
-h4 {
-    color: black;
-}
-
 strong {
     color: black;
 }
@@ -153,8 +144,8 @@ p {
 .project,
 .stack {
     background-color: transparent;
-      backdrop-filter: blur(10px); 
-      z-index: 999; 
+    backdrop-filter: blur(10px);
+    z-index: 999;
     border: 1px solid gray;
     border-radius: 10px;
     transition: 0.8s;
@@ -162,19 +153,19 @@ p {
 }
 
 a {
-    background-color: #ADD8E6;
+    /* background-color: #ADD8E6; */
     text-decoration: none;
-    border: solid grey;
-    border-radius: 6px;
+    /* border: solid grey; */
+    /* border-radius: 6px; */
     padding: 2px;
 }
 
-.project:hover {
-    transform: scale(1.04);
-}
-
-.stack:hover {
-    transform: scale(1.15);
+.project:hover,
+.introduction:hover,
+.my-stack:hover{
+    transform: scale(1.02);
+    transition: 0.8s;
+    transition: transform 0.7s ease;
 }
 
 .contact-inline {
