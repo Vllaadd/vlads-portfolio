@@ -16,24 +16,25 @@ body {
     gap: 5px;
 }
 
-.introduction {
+.introduction,
+.my-stack{
     background-color: transparent;
       backdrop-filter: blur(10px); 
       z-index: 999; 
-    grid-row: 1;
-    grid-column: 1 / span 1;
-    width: 100%;
-    border: 1px solid gray;
-    border-radius: 10px;
+      grid-row: 1;
+      border: 1px solid gray;
+      border-radius: 10px;
+}
+
+.introduction {
+   width: 100%;
+   grid-column: 1 / span 1;
 }
 
 .my-stack {
-    background-color: transparent;
-      backdrop-filter: blur(10px); 
-      z-index: 999; 
     grid-row: 1;
     grid-column: 2 / span 1;
-    border: 1px solid black;
+    border: 1px solid gray;
     border-radius: 10px;
 }
 
@@ -154,7 +155,7 @@ p {
     background-color: transparent;
       backdrop-filter: blur(10px); 
       z-index: 999; 
-    border: 1px solid black;
+    border: 1px solid gray;
     border-radius: 10px;
     transition: 0.8s;
     transition: transform 0.7s ease;
