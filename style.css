@@ -2,9 +2,9 @@ body {
     background-image: url('./files/brick-pattern-background-free-vector.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    color: #f5f5f5;
+    /* color: #f5f5f5; */
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1;
 }
 
