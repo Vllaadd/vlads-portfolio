@@ -2,6 +2,7 @@ body {
     background-image: url('./files/white-wooden-texture-flooring-background_53876-63634.avif');
     background-repeat: no-repeat;
     background-size: cover;
+    /* color: #f5f5f5; */
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 1;
@@ -33,6 +34,8 @@ body {
 .my-stack {
     grid-row: 1;
     grid-column: 2 / span 1;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 
 .item-3 {
@@ -40,30 +43,43 @@ body {
     grid-column: 1 / span 2;
 }
 
-.project,
-.stack {
-    background-color: transparent;
-    backdrop-filter: blur(10px);
-    z-index: 999;
-    border: 1px solid gray;
-    border-radius: 10px;
-    transition: transform 0.7s ease;
+.project-1 {
+    grid-row: 3;
+    grid-column: 1 / span 2;
 }
 
-.project-1,
-.project-2,
-.project-3,
-.project-4,
-.project-5,
-.project-6,
-.project-7,
-.project-8 {
-    grid-row: 3 / span 6;
+.project-2 {
+    grid-row: 4;
+    grid-column: 1 / span 2;
+}
+
+.project-3 {
+    grid-row: 5;
+    grid-column: 1 / span 2;
+}
+
+.project-4 {
+    grid-row: 6;
+    grid-column: 1 / span 2;
+}
+
+.project-5 {
+    grid-row: 7;
+    grid-column: 1 / span 2;
+}
+
+.project-6 {
+    grid-row: 8;
+    grid-column: 1 / span 2;
+}
+
+.project-7 {
+    grid-row: 8;
     grid-column: 1 / span 2;
 }
 
 .contact {
-    grid-row: 9;
+    grid-row: 8;
     grid-column: 1 / span 2;
 }
 
@@ -75,7 +91,8 @@ img {
     float: left;
     max-width: 170px;
     max-height: 170px;
-    margin: 0 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 @media (max-width: 767px) {
@@ -91,18 +108,22 @@ img {
     text-align: center;
     background-color: #5F9EA0;
     font-weight: bold;
-    padding: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
-.project-title {
+.title {
     text-align: center;
     background-color: #5F9EA0;
     font-weight: bold;
-    padding: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .stack {
+    /* border: solid black; */
     position: relative;
+    /* border-radius: 10px; */
     padding: 3px;
     margin: 3px;
 }
@@ -112,28 +133,53 @@ img {
     margin-top: 20px;
 }
 
-strong,
+strong {
+    color: black;
+}
+
 p {
     color: black;
 }
+
 
 .grid-item {
     padding: 5px;
 }
 
+.project,
+.stack {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: 0.8s;
+    transition: transform 0.7s ease;
+}
+
 a {
+    /* background-color: #ADD8E6; */
     text-decoration: none;
+    /* border: solid grey; */
+    /* border-radius: 6px; */
     padding: 2px;
 }
 
 .project:hover,
 .introduction:hover,
-.my-stack:hover {
+.my-stack:hover{
     transform: scale(1.02);
+    transition: 0.8s;
+    transition: transform 0.7s ease;
 }
 
 .contact-inline {
     display: inline;
+    /* border: solid grey; */
+    /* position: relative;  */
+    /* border-radius: 10px; */
+    /* padding: 3px; */
+    /* margin: 3px;  */
 }
 
 .contactdiv {
