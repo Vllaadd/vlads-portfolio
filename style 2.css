@@ -74,16 +74,12 @@ body {
 }
 
 .project-7 {
-    grid-row: 8;
-    grid-column: 1 / span 2;
-}
-.project-8 {
-    grid-row: 8;
+    grid-row: 9;
     grid-column: 1 / span 2;
 }
 
 .contact {
-    grid-row: 9;
+    grid-row: 10;
     grid-column: 1 / span 2;
 }
 
